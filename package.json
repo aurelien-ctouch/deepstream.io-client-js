@@ -25,7 +25,8 @@
   "dependencies": {
     "component-emitter": "1.1.2",
     "react-native-engine.io-client": "https://github.com/aurelien-ctouch/engine.io-client/tarball/master",
-    "react-native-tcp": "2.0.1"
+    "react-native-tcp": "2.0.1",
+	"url": "0.11.0"
   },
   "browser": {
     "net": "react-native-tcp"
