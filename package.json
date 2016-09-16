@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "component-emitter": "1.1.2",
-    "engine.io-client": "^1.6.11"
+    "react-native-engine.io-client": "^1.6.11"
   },
   "browser": {
     "net": false
