@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "component-emitter": "1.1.2",
-    "react-native-engine.io-client": "^1.6.12"
+    "react-native-engine.io-client": "https://github.com/aurelien-ctouch/engine.io-client/tarball/master"
   },
   "browser": {
     "net": false
