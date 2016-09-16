@@ -1,4 +1,4 @@
-var engineIoClient = require( 'engine.io-client' ),
+var engineIoClient = require( 'react-native-engine.io-client' ),
 	messageParser = require( './message-parser' ),
 	messageBuilder = require( './message-builder' ),
 	TcpConnection = require( '../tcp/tcp-connection' ),

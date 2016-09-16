@@ -188,7 +188,7 @@ module.exports.parser = _dereq_('engine.io-parser');
 
 var transports = _dereq_('./transports');
 var Emitter = _dereq_('component-emitter');
-var debug = _dereq_('debug')('engine.io-client:socket');
+var debug = _dereq_('debug')('react-native-engine.io-client:socket');
 var index = _dereq_('indexof');
 var parser = _dereq_('engine.io-parser');
 var parseuri = _dereq_('parseuri');
@@ -1378,7 +1378,7 @@ var XMLHttpRequest = _dereq_('xmlhttprequest-ssl');
 var Polling = _dereq_('./polling');
 var Emitter = _dereq_('component-emitter');
 var inherit = _dereq_('component-inherit');
-var debug = _dereq_('debug')('engine.io-client:polling-xhr');
+var debug = _dereq_('debug')('react-native-engine.io-client:polling-xhr');
 
 /**
  * Module exports.
@@ -1794,7 +1794,7 @@ var parseqs = _dereq_('parseqs');
 var parser = _dereq_('engine.io-parser');
 var inherit = _dereq_('component-inherit');
 var yeast = _dereq_('yeast');
-var debug = _dereq_('debug')('engine.io-client:polling');
+var debug = _dereq_('debug')('react-native-engine.io-client:polling');
 
 /**
  * Module exports.
@@ -2044,7 +2044,7 @@ var parser = _dereq_('engine.io-parser');
 var parseqs = _dereq_('parseqs');
 var inherit = _dereq_('component-inherit');
 var yeast = _dereq_('yeast');
-var debug = _dereq_('debug')('engine.io-client:websocket');
+var debug = _dereq_('debug')('react-native-engine.io-client:websocket');
 var BrowserWebSocket = global.WebSocket || global.MozWebSocket;
 
 /**
@@ -5215,7 +5215,7 @@ EventHandler.prototype._resubscribe = function() {
 
 module.exports = EventHandler;
 },{"../constants/constants":35,"../message/message-builder":40,"../message/message-parser":41,"../utils/ack-timeout-registry":50,"../utils/listener":51,"../utils/resubscribe-notifier":52,"component-emitter":1}],39:[function(_dereq_,module,exports){
-var engineIoClient = _dereq_( 'engine.io-client' ),
+var engineIoClient = _dereq_( 'react-native-engine.io-client' ),
 	messageParser = _dereq_( './message-parser' ),
 	messageBuilder = _dereq_( './message-builder' ),
 	TcpConnection = _dereq_( '../tcp/tcp-connection' ),
@@ -5722,7 +5722,7 @@ Connection.prototype._clearReconnect = function() {
 
 module.exports = Connection;
 
-},{"../constants/constants":35,"../tcp/tcp-connection":31,"../utils/utils":54,"./message-builder":40,"./message-parser":41,"engine.io-client":2}],40:[function(_dereq_,module,exports){
+},{"../constants/constants":35,"../tcp/tcp-connection":31,"../utils/utils":54,"./message-builder":40,"./message-parser":41,"react-native-engine.io-client":2}],40:[function(_dereq_,module,exports){
 var C = _dereq_( '../constants/constants' ),
 	SEP = C.MESSAGE_PART_SEPERATOR;
 
